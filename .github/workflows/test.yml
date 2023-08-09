@@ -1,0 +1,21 @@
+name: Python application test with Poetry and pytest
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Run Test Code
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Test
+        run: |
+          docker-compose up -d --build
+          docker-compose exec -T app poetry run pytest
