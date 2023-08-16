@@ -27,13 +27,13 @@ files = [
 
 [[package]]
 name = "cfgv"
-version = "3.3.1"
+version = "3.4.0"
 description = "Validate configuration and produce human readable error messages."
 optional = false
-python-versions = ">=3.6.1"
+python-versions = ">=3.8"
 files = [
-    {file = "cfgv-3.3.1-py2.py3-none-any.whl", hash = "sha256:c6a0883f3917a037485059700b9e75da2464e6c27051014ad85ba6aaa5884426"},
-    {file = "cfgv-3.3.1.tar.gz", hash = "sha256:f5a830efb9ce7a445376bb66ec94c638a9787422f96264c98edc6bdeed8ab736"},
+    {file = "cfgv-3.4.0-py2.py3-none-any.whl", hash = "sha256:b7265b1f29fd3316bfcd2b330d63d024f2bfd8bcb8b0272f8e19a504856c48f9"},
+    {file = "cfgv-3.4.0.tar.gz", hash = "sha256:e52591d4c5f5dead8e0f673fb16db7949d2cfb3f7da4582893288f0ded8fe560"},
 ]
 
 [[package]]
@@ -280,13 +280,13 @@ files = [
 
 [[package]]
 name = "dnspython"
-version = "2.4.1"
+version = "2.4.2"
 description = "DNS toolkit"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "dnspython-2.4.1-py3-none-any.whl", hash = "sha256:5b7488477388b8c0b70a8ce93b227c5603bc7b77f1565afe8e729c36c51447d7"},
-    {file = "dnspython-2.4.1.tar.gz", hash = "sha256:c33971c79af5be968bb897e95c2448e11a645ee84d93b265ce0b7aabe5dfdca8"},
+    {file = "dnspython-2.4.2-py3-none-any.whl", hash = "sha256:57c6fbaaeaaf39c891292012060beb141791735dbb4004798328fc2c467402d8"},
+    {file = "dnspython-2.4.2.tar.gz", hash = "sha256:8dcfae8c7460a2f84b4072e26f1c9f4101ca20c071649cb7c34e8b6a93d58984"},
 ]
 
 [package.extras]
@@ -299,13 +299,13 @@ wmi = ["wmi (>=1.5.1,<2.0.0)"]
 
 [[package]]
 name = "emmet-core"
-version = "0.64.0"
+version = "0.64.4"
 description = "Core Emmet Library"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "emmet-core-0.64.0.tar.gz", hash = "sha256:922343f079858e1d96b426045772b394158158e52821e7cb08f498f7e06eac2a"},
-    {file = "emmet_core-0.64.0-py3-none-any.whl", hash = "sha256:0ce0319a9556723f18c973eb82e286cc16d01e471f2292ed482853813faeac33"},
+    {file = "emmet-core-0.64.4.tar.gz", hash = "sha256:c6eddbda86ad6a2450a9a6265802697184944c0955f3f0e49816ad49b67f7a9e"},
+    {file = "emmet_core-0.64.4-py3-none-any.whl", hash = "sha256:38066ba918c06303e5fbf3746b4e0a293dab63021bd6d5cb41254bc264728fdf"},
 ]
 
 [package.dependencies]
@@ -317,19 +317,19 @@ spglib = ">=2.0.1"
 typing-extensions = ">=3.7,<5.0"
 
 [package.extras]
-all = ["pymatgen-analysis-alloys (>=0.0.3)", "pymatgen-analysis-diffusion (>=2022.1.15)", "robocrys (>=0.2.7)", "seekpath (>=2.0.1)"]
+all = ["pymatgen-analysis-alloys (>=0.0.3)", "pymatgen-analysis-diffusion (>=2022.1.15)", "robocrys (>=0.2.8)", "seekpath (>=2.0.1)"]
 docs = ["jinja2", "livereload", "mkdocs", "mkdocs-awesome-pages-plugin", "mkdocs-markdownextradata-plugin", "mkdocs-material (<8.3)", "mkdocs-material-extensions", "mkdocs-minify-plugin", "mkdocstrings", "mkdocstrings[python]"]
 test = ["custodian (>=2022.5.26)", "flake8", "maggma", "mypy", "mypy-extensions", "pre-commit", "pycodestyle", "pydocstyle", "pytest", "pytest-cov", "types-requests", "types-setuptools", "wincertstore"]
 
 [[package]]
 name = "exceptiongroup"
-version = "1.1.2"
+version = "1.1.3"
 description = "Backport of PEP 654 (exception groups)"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "exceptiongroup-1.1.2-py3-none-any.whl", hash = "sha256:e346e69d186172ca7cf029c8c1d16235aa0e04035e5750b4b95039e65204328f"},
-    {file = "exceptiongroup-1.1.2.tar.gz", hash = "sha256:12c3e887d6485d16943a309616de20ae5582633e0a2eda17f4e10fd61c1e8af5"},
+    {file = "exceptiongroup-1.1.3-py3-none-any.whl", hash = "sha256:343280667a4585d195ca1cf9cef84a4e178c4b6cf2274caef9859782b567d5e3"},
+    {file = "exceptiongroup-1.1.3.tar.gz", hash = "sha256:097acd85d473d75af5bb98e41b61ff7fe35efe6675e4f9370ec6ec5126d160e9"},
 ]
 
 [package.extras]
@@ -496,13 +496,13 @@ files = [
 
 [[package]]
 name = "joblib"
-version = "1.3.1"
+version = "1.3.2"
 description = "Lightweight pipelining with Python functions"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "joblib-1.3.1-py3-none-any.whl", hash = "sha256:89cf0529520e01b3de7ac7b74a8102c90d16d54c64b5dd98cafcd14307fdf915"},
-    {file = "joblib-1.3.1.tar.gz", hash = "sha256:1f937906df65329ba98013dc9692fe22a4c5e4a648112de500508b18a21b41e3"},
+    {file = "joblib-1.3.2-py3-none-any.whl", hash = "sha256:ef4331c65f239985f3f2220ecc87db222f08fd22097a3dd5698f693875f8cbb9"},
+    {file = "joblib-1.3.2.tar.gz", hash = "sha256:92f865e621e17784e7955080b6d042489e3b8e294949cc44c6eac304f59772b1"},
 ]
 
 [[package]]
@@ -705,13 +705,13 @@ yaml = ["ruamel.yaml"]
 
 [[package]]
 name = "mp-api"
-version = "0.33.3"
+version = "0.34.1"
 description = "API Server for the Materials Project"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "mp-api-0.33.3.tar.gz", hash = "sha256:652d9ae791165fea94a20fd9335e0c1c89db8e071f85e9e7d78cf064a274ff08"},
-    {file = "mp_api-0.33.3-py3-none-any.whl", hash = "sha256:433941d36e1c8c8521a37f968f5898a5611d4984d8cefadd9b1d7cd31fec805d"},
+    {file = "mp-api-0.34.1.tar.gz", hash = "sha256:9601b1e6efaf563adcb8e41e81455f067abb178a6f86e462e8a6848056fa7548"},
+    {file = "mp_api-0.34.1-py3-none-any.whl", hash = "sha256:32d2dd4e80161cfa53deb25379adc346232ad3b69de721ad5efd4a448f45f636"},
 ]
 
 [package.dependencies]
@@ -1037,13 +1037,13 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4)", "pytest-co
 
 [[package]]
 name = "plotly"
-version = "5.15.0"
+version = "5.16.0"
 description = "An open-source, interactive data visualization library for Python"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "plotly-5.15.0-py2.py3-none-any.whl", hash = "sha256:3508876bbd6aefb8a692c21a7128ca87ce42498dd041efa5c933ee44b55aab24"},
-    {file = "plotly-5.15.0.tar.gz", hash = "sha256:822eabe53997d5ebf23c77e1d1fcbf3bb6aa745eb05d532afd4b6f9a2e2ab02f"},
+    {file = "plotly-5.16.0-py2.py3-none-any.whl", hash = "sha256:046ba0cd9f6b251780e0d93313016ec5e2cb69d9a68da818cd7110e6c77a4011"},
+    {file = "plotly-5.16.0.tar.gz", hash = "sha256:13dc052665dcb4d9eefd89847c0b144984e99aca5c8008f9885d2583b77d8b7d"},
 ]
 
 [package.dependencies]
@@ -1159,28 +1159,28 @@ email = ["email-validator (>=1.0.3)"]
 
 [[package]]
 name = "pymatgen"
-version = "2023.7.20"
+version = "2023.8.10"
 description = "Python Materials Genomics is a robust materials analysis code that defines core object representations for structures and molecules with support for many electronic structure codes. It is currently the core analysis code powering the Materials Project (https://materialsproject.org)."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pymatgen-2023.7.20-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0ac4c0c1d32f45956b1872eca7aa32340c496aace83a1104d4520e5179455219"},
-    {file = "pymatgen-2023.7.20-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:34407d5cc1986f6981e6c16fac07a2cb26142e220059d19a3f55e9244eff1bfd"},
-    {file = "pymatgen-2023.7.20-cp310-cp310-win32.whl", hash = "sha256:d6ca50bebb57c0bddb368fe887396c3f11e712264fa4f9a0f4557d3538b028a6"},
-    {file = "pymatgen-2023.7.20-cp310-cp310-win_amd64.whl", hash = "sha256:000317ee0111750a7c47df180575e8f2a6e7c904bca4aba1cb584250340e6aa9"},
-    {file = "pymatgen-2023.7.20-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:f35193cebd93a53a5a3759ecb62f09cef2f776cbad920358e437e91dfd537c87"},
-    {file = "pymatgen-2023.7.20-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6bb2579c68111ee4979b66140af8c4198180d17aeb4d5141b9ebba3d07a19247"},
-    {file = "pymatgen-2023.7.20-cp311-cp311-win32.whl", hash = "sha256:d9ac95038c1aa5e3ef3bb3f258a68fa8524b852c0a6614f13233460790974b3a"},
-    {file = "pymatgen-2023.7.20-cp311-cp311-win_amd64.whl", hash = "sha256:3ee941c049be9edadbd7c9529de5d5a5c99f768ad6ae22be4896c914aca9d259"},
-    {file = "pymatgen-2023.7.20-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:73477f0a07ac3379cd543c145bc78c6317aa6e7f194edd3777ac9830ec4ff09d"},
-    {file = "pymatgen-2023.7.20-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f7da6a71be82c89f2c5d207d3d729bf98463463776c5e3dbe30b7cd2052ec0e5"},
-    {file = "pymatgen-2023.7.20-cp38-cp38-win32.whl", hash = "sha256:f416f8308fd85b74934a82eef9ade19f7286385f76033d52305b911412edf98c"},
-    {file = "pymatgen-2023.7.20-cp38-cp38-win_amd64.whl", hash = "sha256:975759e4aea4736ec9650fd4655d7400d28825cd6d4b040d6aaa2023212b6d1c"},
-    {file = "pymatgen-2023.7.20-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:c9648c429035b8ab9436879680ed1fdf355edf6518b3ab3e4e61cc70a67ac589"},
-    {file = "pymatgen-2023.7.20-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7e839427e8b63c6e2a984f7178fe4261eb71dfe6798506bf863993414d5b8d32"},
-    {file = "pymatgen-2023.7.20-cp39-cp39-win32.whl", hash = "sha256:8738871a63391f9aaead2e462f43d6873ccf0b54baeb50531156f75fa86f1d0a"},
-    {file = "pymatgen-2023.7.20-cp39-cp39-win_amd64.whl", hash = "sha256:fa64db9a884c1c3c5c374608ffca3dcca294c5cbf9d22d72e4a6bada9309732c"},
-    {file = "pymatgen-2023.7.20.tar.gz", hash = "sha256:64e10a9b04d305dad2de5298d83e0bcec91f0bad57893fc24e79bd0873638e99"},
+    {file = "pymatgen-2023.8.10-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:054bd579be44db4513c75c11d1f53a780aa6ac98c188baf9bc4ac818ddaeeae2"},
+    {file = "pymatgen-2023.8.10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:02adbcd8f19a4e41b4d68328340d58e602593234f2c2df72115f9775ee7ed827"},
+    {file = "pymatgen-2023.8.10-cp310-cp310-win32.whl", hash = "sha256:1a5457f623d0d8ae22d3c218c0348999f0d19bf9b95c2fb6b5708a0899d5a38e"},
+    {file = "pymatgen-2023.8.10-cp310-cp310-win_amd64.whl", hash = "sha256:4657051061245027a3ffacf0ecfee12e6ee5de20cfee5f3d4f0a0eb56d94e2b8"},
+    {file = "pymatgen-2023.8.10-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:6ad70d9da37463706ce1181725acd1fbabf963af4f6a348b167615e5e04933d3"},
+    {file = "pymatgen-2023.8.10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5b3b0a54c9b6c7c49045198d1186f6951e32e85a90746c3ebfa152b1f5b3ce3f"},
+    {file = "pymatgen-2023.8.10-cp311-cp311-win32.whl", hash = "sha256:cfe4ca205dec8cc2c41d85d7a24d49fc23da7b7fb7b6560945ba48196da59a05"},
+    {file = "pymatgen-2023.8.10-cp311-cp311-win_amd64.whl", hash = "sha256:e0b7d1b452a2d6969c34b8fd0d0439c14495f785da491dd893f1afc9a8fd302f"},
+    {file = "pymatgen-2023.8.10-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:eae60ef48d7c0f906ee6b932f9301fb455b9d9e47f04d528993fa229b61f2322"},
+    {file = "pymatgen-2023.8.10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3693eb8c537d8e4197878f0ddc2c9bcae888fcbcb9643b6d6b907f40541a0d35"},
+    {file = "pymatgen-2023.8.10-cp38-cp38-win32.whl", hash = "sha256:73734cc5b5c52c4879eedc353936d4fe7d785fc8b6d297f82a287d1f4e8431cc"},
+    {file = "pymatgen-2023.8.10-cp38-cp38-win_amd64.whl", hash = "sha256:316b8ddf74999fed09fd6aa44503976d8c1b4b8d3916d9f61c5b61c9a74bc7d3"},
+    {file = "pymatgen-2023.8.10-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:6387efd84481720f366d4d6052de0df45dbb9df394876f13527502fbe8014433"},
+    {file = "pymatgen-2023.8.10-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:81d89fbdce2778a0b74c8552a8fa7a05cfaff81adf74da9876f5e31f589ed443"},
+    {file = "pymatgen-2023.8.10-cp39-cp39-win32.whl", hash = "sha256:8fcda2e297d532bc4e94105ce4c9070ecc8729819111ae4134339a32a42bd00d"},
+    {file = "pymatgen-2023.8.10-cp39-cp39-win_amd64.whl", hash = "sha256:42750caf29803c166e6259578bc295699de8497efa48b3ba59ac503543633c02"},
+    {file = "pymatgen-2023.8.10.tar.gz", hash = "sha256:eb3a3b82d5b5fd1c8e63fc21b6413179d42f2a815daf26110f33f55bd2ba3ce2"},
 ]
 
 [package.dependencies]
@@ -1624,18 +1624,18 @@ test = ["asv", "gmpy2", "mpmath", "pytest", "pytest-cov", "pytest-xdist", "sciki
 
 [[package]]
 name = "setuptools"
-version = "68.0.0"
+version = "68.1.0"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "setuptools-68.0.0-py3-none-any.whl", hash = "sha256:11e52c67415a381d10d6b462ced9cfb97066179f0e871399e006c4ab101fc85f"},
-    {file = "setuptools-68.0.0.tar.gz", hash = "sha256:baf1fdb41c6da4cd2eae722e135500da913332ab3f2f5c7d33af9b492acb5235"},
+    {file = "setuptools-68.1.0-py3-none-any.whl", hash = "sha256:e13e1b0bc760e9b0127eda042845999b2f913e12437046e663b833aa96d89715"},
+    {file = "setuptools-68.1.0.tar.gz", hash = "sha256:d59c97e7b774979a5ccb96388efc9eb65518004537e85d52e81eaee89ab6dd91"},
 ]
 
 [package.extras]
-docs = ["furo", "jaraco.packaging (>=9)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-hoverxref (<2)", "sphinx-inline-tabs", "sphinx-lint", "sphinx-notfound-page (==0.8.3)", "sphinx-reredirects", "sphinxcontrib-towncrier"]
-testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8-2020", "ini2toml[lite] (>=0.9)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pip (>=19.1)", "pip-run (>=8.8)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.3)", "pytest-mypy (>=0.9.1)", "pytest-perf", "pytest-ruff", "pytest-timeout", "pytest-xdist", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel"]
+docs = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-hoverxref (<2)", "sphinx-inline-tabs", "sphinx-lint", "sphinx-notfound-page (==0.8.3)", "sphinx-reredirects", "sphinxcontrib-towncrier"]
+testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8-2020", "ini2toml[lite] (>=0.9)", "jaraco.develop (>=7.21)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pip (>=19.1)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-mypy (>=0.9.1)", "pytest-perf", "pytest-ruff", "pytest-timeout", "pytest-xdist", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel"]
 testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pytest", "pytest-enabler", "pytest-xdist", "tomli", "virtualenv (>=13.0.0)", "wheel"]
 
 [[package]]
@@ -1723,13 +1723,13 @@ widechars = ["wcwidth"]
 
 [[package]]
 name = "tenacity"
-version = "8.2.2"
+version = "8.2.3"
 description = "Retry code until it succeeds"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 files = [
-    {file = "tenacity-8.2.2-py3-none-any.whl", hash = "sha256:2f277afb21b851637e8f52e6a613ff08734c347dc19ade928e519d7d2d8569b0"},
-    {file = "tenacity-8.2.2.tar.gz", hash = "sha256:43af037822bd0029025877f3b2d97cc4d7bb0c2991000a3d59d71517c5c969e0"},
+    {file = "tenacity-8.2.3-py3-none-any.whl", hash = "sha256:ce510e327a630c9e1beaf17d42e6ffacc88185044ad85cf74c0a8887c6a0f88c"},
+    {file = "tenacity-8.2.3.tar.gz", hash = "sha256:5398ef0d78e63f40007c1fb4c0bff96e1911394d2fa8d194f77619c05ff6cc8a"},
 ]
 
 [package.extras]
@@ -1770,13 +1770,13 @@ files = [
 
 [[package]]
 name = "tqdm"
-version = "4.65.2"
+version = "4.66.1"
 description = "Fast, Extensible Progress Meter"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "tqdm-4.65.2-py3-none-any.whl", hash = "sha256:6c431f7dee4f57284c8f4bd2eb1d4af00d730d38cc6098bd79880bcbec676276"},
-    {file = "tqdm-4.65.2.tar.gz", hash = "sha256:5f7d8b4ac76016ce9d51a7f0ea30d30984888d97c474fdc4a4148abfb5ee76aa"},
+    {file = "tqdm-4.66.1-py3-none-any.whl", hash = "sha256:d302b3c5b53d47bce91fea46679d9c3c6508cf6332229aa1e7d8653723793386"},
+    {file = "tqdm-4.66.1.tar.gz", hash = "sha256:d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"},
 ]
 
 [package.dependencies]
@@ -1838,13 +1838,13 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "virtualenv"
-version = "20.24.2"
+version = "20.24.3"
 description = "Virtual Python Environment builder"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "virtualenv-20.24.2-py3-none-any.whl", hash = "sha256:43a3052be36080548bdee0b42919c88072037d50d56c28bd3f853cbe92b953ff"},
-    {file = "virtualenv-20.24.2.tar.gz", hash = "sha256:fd8a78f46f6b99a67b7ec5cf73f92357891a7b3a40fd97637c27f854aae3b9e0"},
+    {file = "virtualenv-20.24.3-py3-none-any.whl", hash = "sha256:95a6e9398b4967fbcb5fef2acec5efaf9aa4972049d9ae41f95e0972a683fd02"},
+    {file = "virtualenv-20.24.3.tar.gz", hash = "sha256:e5c3b4ce817b0b328af041506a2a299418c98747c4b1e68cb7527e74ced23efc"},
 ]
 
 [package.dependencies]
