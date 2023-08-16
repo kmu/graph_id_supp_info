@@ -12,6 +12,7 @@ pymatgen = "^2023.7.20"
 matminer = "^0.9.0"
 rdkit-pypi = "^2022.9.5"
 GraKeL = "^0.1.9"
+networkx = "^3.1"
 
 
 [tool.poetry.dev-dependencies]
