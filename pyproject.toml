@@ -7,16 +7,19 @@ readme = "README.md"
 packages = [{include = "graph_id_supp_info"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 pymatgen = "^2023.7.20"
 matminer = "^0.9.0"
 rdkit-pypi = "^2022.9.5"
 GraKeL = "^0.1.9"
 networkx = "^3.1"
+graph-id = {git = "https://github.com/kmu/graph_id.git"}
+igraph = "^0.10.6"
+wwl = "^0.1.2"
 
 
 [tool.poetry.dev-dependencies]
-pre-commit = "^1.18"
+pre-commit = "^3.3.0"
 pytest = "^7.4.0"
 
 [build-system]

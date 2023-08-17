@@ -1,1 +1,3 @@
-# graph_id_supp_info
+# Supporting Information of Graph ID
+
+This is the supporting information of Graph ID.

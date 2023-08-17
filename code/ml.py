@@ -8,7 +8,12 @@ import os
 import numpy as np
 import pandas as pd
 from matminer.featurizers.base import MultipleFeaturizer
-from matminer.featurizers.composition import ElementProperty, IonProperty, Stoichiometry, ValenceOrbital
+from matminer.featurizers.composition import (
+    ElementProperty,
+    IonProperty,
+    Stoichiometry,
+    ValenceOrbital,
+)
 from matminer.featurizers.structure import (
     ChemicalOrdering,
     MaximumPackingEfficiency,
@@ -84,11 +89,13 @@ if not os.path.exists(pickle_path):
     print(f"Reading {json_path}")
     data = loadfn(json_path)
     print("The number of structures is {}".format(len(data)))
-    print("formation_energy_per_atom is {}".format(data[0]["formation_energy_per_atom"]))
+    print(
+        "formation_energy_per_atom is {}".format(data[0]["formation_energy_per_atom"])
+    )
 
     d1 = pd.DataFrame(data)
     if args.debug:
-        d1 = d1.head(200)
+        d1 = d1.head(2000)
 
     c2s = CifToStructure()
     d2 = c2s.featurize_dataframe(d1, col_id="structure")
@@ -103,6 +110,7 @@ if not os.path.exists(pickle_path):
     d3 = featurizer.featurize_dataframe(d2, "structure", ignore_errors=True)
     d3["graph_id"] = gidgen.get_many_ids(d3["structure"].values, parallel=True)
 
+    del d3["structure"]
     print("Saving to pickle...")
     d3.to_pickle(pickle_path)
 else:
@@ -127,9 +135,6 @@ model = Pipeline(
 )
 
 model.fit(X_train, y_train)
-y_test_pred = model.predict(X_test)
-mae = mean_absolute_error(y_test, y_test_pred)
-print(mae)
 
 leaked_df = test_df[test_df.graph_id.isin(train_df.graph_id)]
 unleaked_df = test_df[test_df.graph_id.isin(train_df.graph_id) is False]
