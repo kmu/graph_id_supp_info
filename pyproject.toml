@@ -25,3 +25,45 @@ pytest = "^7.4.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 119
+
+
+[tool.ruff]
+target-version = "py39"
+line-length = 119
+select = [
+    "ALL"
+]
+ignore = [
+  "S101",
+  "ANN201",
+  "ANN101",
+  "D102",
+  "ANN001",
+  "PLR200",
+  "PGH003",
+  "D101",
+  "D100",
+  "D103",
+  "PT009",
+  "S106",
+  "D106",
+  "RUF012",
+  "D105",
+  "D104",
+  "ANN003",
+  "T201",
+  "PTH118",
+  "E501",
+  "DJ012",
+  "ANN002",
+  "PTH120",
+  "N806",
+  "N802",
+  "ISC001",
+  "D107",
+  "ARG001",
+]
